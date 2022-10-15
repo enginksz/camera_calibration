@@ -3,7 +3,7 @@ import numpy as np
 import copy
 import yaml
 
-input = "data/chessboard.avi"
+input = "/chessboard.avi"  # data input  https://vimeo.com/141414129
 
 board_pattern = (10, 7)
 select_images = True
