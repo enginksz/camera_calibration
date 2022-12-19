@@ -18,7 +18,7 @@ while True:
     ret1, image = capture.read()
     if not ret1: break
     if select_images:
-        cv2.imshow("3DV Tutorial: Camera Calibration", image)
+        cv2.imshow(" Camera Calibration", image)
         key = cv2.waitKey(1)
         if key == 27: break # 'ESC' key: Exit
         elif key == 32:     # 'Space' key: Pause
